@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>OPRP Character Creation Tool</title>
+    
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <script src="js/logic.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css"></link>
+  </head>
+  <body>
+  	<p id="inputContainer">
+      <em>Note: Total SD includes the base 32 <strong>not just SD earned</strong>.</em>
+  	  <label>Total SD:</label> <input id="totalSD" type="number" min="32" value="32"/>
+    </p>
+    <fieldset>
+      <legend>Traits</legend>
+      <label>General Traits:</label> <input id="genTraits" type="number" min="3" value="3" readonly="true"/><br/><br/>
+      <label>Professional Trait:</label><input id="profTraits" type="number" min="1" value="1" readonly="true"/>
+    </fieldset>
+    <fieldset>
+      <legend>Stats and Techniques</legend?
+    	 <em>Note: calculations assume all SD added to stats. This app does not currently take into account SD modifications from traits.</em>
+    	 <br/><br/>
+    	<label>SD Earned:</label> <input id="sdEarned" type="number" min="0" readonly="true" value="0"/><br/><br/>
+    	<label>SD Spent on Stats:</label> <input id="spentOnStats" type="number" min="32" readonly="true" value="32"/><br/><br/>
+    	<label>Fortune:</label> <input id="fortune" type="number" readonly="true" min="8" value="8"/><br/><br/>
+    	<label>Technique Points:</label> <input id="tp" type="number" readonly="true" min="16" value="16"/><br/><br/>
+    	<label>Maximum Technique Rank:</label> <input id="maxTechRank" type="number" readonly="true" min="8" value="8">
+    </fieldset>
+  </body>
+</html>

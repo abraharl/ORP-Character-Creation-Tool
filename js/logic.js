@@ -39,7 +39,7 @@ function calculateSp() {
   }
 
   else {
-    sp = 182 + Math.floor(99/1.5) + Math.floor((99/2) + Math.floor((earned - 350)/3);
+    sp = 182 + Math.floor(99/1.5) + Math.floor(99/2) + Math.floor((earned - 350)/3);
   }
 
   return sp;

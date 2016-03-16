@@ -1,7 +1,9 @@
-//TODO:
-  Add support for advancements.
-  Add support for people spending SD on Fortune.
-  Add support for sd multiplier from proffessions and traits.
-  Add "create technique" feature.
-  Add "export to VB code" feature.
-  Make it look less like ass.
+To run it simply open main.html in a modern browser of your choice.
+
+ Coming "Soon":
+  * Support for advancements.
+  * Support for people spending SD on Fortune.
+  * support for sd multiplier from proffessions and traits.
+  * "Create technique" feature.
+  * "Export to VB code" feature.
+  * Less shitty look and feel.
